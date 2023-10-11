@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Rakesh</h1>
+    <script>
+ //Task 1
+
+ var a=prompt("enter a number 1");
+  a=01234567 ? console.log("valid") : console.log("invalid");
+
+  // Task 2
+
+   var b=prompt("enter a number 2");
+   var c=prompt("enter a number 3");
+   b>c ?  console.log("b < c") : console.log("b < c");
+
+   //TAsk 3
+
+  var d=prompt("enter a number 4");
+  var e=prompt("enter a number 5");
+  var f=prompt("enter a number 6");
+  d+e+f = 60 ? console.log("hello world") : console.log("not 60");
+
+  //Task 4
+
+  var g=prompt("enter a number 7");
+  g =10 ? console.log("sunday") : console.log("not sunday");
+
+  var h=prompt("enter a number 8");
+  h = 11 ? console.log("monday") : console.log("not monday");
+
+
+ var i=prompt("enter a number 9");
+  i = 13 ? console.log("tuesday") : console.log("not tuesday");
+
+  var j=prompt("enter a number 10");
+  j = 14 ? console.log("wednesday") : console.log("not tuesday");
+
+  var k=prompt("enter a number 11");
+  k = 16 ? console.log("thursday") : console.log("not tuesday");
+
+  var l=prompt("enter a number 12");
+  l = 18 ? console.log("friday") : console.log("not tuesday");
+
+  var m=prompt("enter a number 13");
+  m = 20? console.log("satarday") : console.log("not tuesday");
+
+ // Task 5
+ var n=prompt("enter a number 14");
+n=118 
+ ++n;
+ console.log(n);
+  var o=prompt("enter anumber 15");
+   o=119
+   --o;
+   console.log(o);
+
+
+   // Task 6
+    var p=prompt("enter a name 16");
+   p ="rakesh" ? alert("valid")
+
+  var q=prompt("enter a name 17");
+   q ="mrunlucky" ? alert("valid");
+  
+      //Task 7
+      var p=+prompt("enter a number 18");
+       p==="30"?console.log(p+10): console.log(p-10);
+
+       
+
+
+    </script>
+</body>
+</html>
