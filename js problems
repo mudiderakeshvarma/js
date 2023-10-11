@@ -1,0 +1,246 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Rakesh</h1>
+    <script>
+
+
+      // task 1
+       var a=+prompt("enter a number");
+    if (a<=5)
+    {
+     console.log("early morning");
+     }
+     else if(a<=12)
+  {
+   console.log("good morning");
+ }
+  else if(a<=16)
+ {
+      console.log("good afternoon");   
+     }
+   else if(a<=20)
+
+   {
+       console.log("good evening");
+    }
+  else if(a<=24)
+   {
+        console.log("good night");
+    }
+
+       // task 2
+   var a=+prompt("enter a number1")
+   var b=+prompt("enter a number2") 
+   var c=+prompt("enter a number3")
+
+   if ((a>b) && (a>c))
+   {
+    console.log("a is greatter");
+   }
+   else if ((b>c) && (b>a))
+   {
+    console.log("b is greater")
+   }
+   else if ((c>b) && (c>a))
+   {
+    console.log("c is greater")
+   }
+   else if (a=b=c)
+   {
+    console.log("all are equal")
+   }
+   
+ 
+   //Task 3
+
+   var a=+prompt("enter a number1")
+   var b=+prompt("enter a number2")
+   if (a>b)
+   {
+    console.log("a is gratter")
+   }
+   else if(b>a)
+   {
+    console.log("b is gratter")
+   }
+   else (a=b)
+   {
+    console.log("all are equal")
+   }
+
+   //Task 4
+   
+   var a=prompt("enter 1 to 7 numbers")
+        if(a==0){
+            console.log("sunday")
+        }
+        else if(a==1)
+        {
+            console.log("monday")
+        }
+        else if (a==2) 
+        {
+            console.logrt("tuseday")
+        }else if (a==3) {
+            console.log("wensday")
+        }
+        else if (a==4) 
+        {
+         console.log("tursday")
+        }
+        else if (a==5) 
+        {
+         console.log("friday")
+        }
+        else if (a==6) 
+        {
+        console.log("saturday")
+        }
+        else
+        {
+         console.log("no week")
+        }
+
+       // Task 5
+
+        var a=prompt("enter 1 to 12 numbers")
+        if(a==0){
+            console.log("january")
+        }
+        else if(a==1)
+        {
+            console.log("febray")
+        }
+        else if (a==2) 
+        {
+            console.logrt("march")
+        }else if (a==3) {
+            console.log("april")
+        }
+        else if (a==4) 
+        {
+         console.log("may")
+        }
+        else if (a==5) 
+        {
+         console.log("june")
+        }
+        else if (a==6) 
+        {
+        console.log("july")
+        }
+        else if (a==7) 
+        {
+        console.log("august")
+        }
+        else if (a==8) 
+        {
+        console.log("september")
+        }
+        else if (a==9) 
+        {
+        console.log("octabar")
+        }
+        else if (a==10) 
+        {
+        console.log("november")
+        }
+        else if (a==11) 
+        {
+        console.log("december")
+        }
+        else
+        {
+         console.log("no week")
+        }
+
+
+   var a=+prompt("enter 1 to 12 numbers")
+   switch(a)
+   {
+    case 1:
+    console.log("january")
+    break;
+    case 2:
+    console.log("feb")
+    break;
+    case 3:
+    console.log("march")
+    break;
+    case 4:
+    console.log("april")
+    break;
+    case 5:
+    console.log("may")
+    break;
+    case 6:
+    console.log("june")
+    break;
+    case 7:
+    console.log("july")
+    break;
+    case 8:
+    console.log("august")
+    break;
+    case 9:
+    console.log("septamber")
+    break;
+    case 10:
+    console.log("octabar")
+    break;
+    case 11:
+    console.log("november")
+    break;
+    case 12:
+    console.log("decembar")
+    break;
+
+   }
+
+    // Task 6
+
+ var a=+prompt("enter  numbers 1");
+ var b=+prompt("enter  number 2");
+ var c=prompt("enter  numbers 3");
+ if(c=="+")
+ {
+    console.log(a+b);
+ }
+ if(c== "-")
+ {
+    console.log(a-b);
+ }
+ if(c== "*")
+ {
+    console.log(a*b);
+ }
+ if(c== "%")
+ {
+    console.log(a%b);
+ }
+ if(c== "/")
+ {
+    console.log(a/b);
+ }
+    
+
+   //Task 7
+   var a=+prompt("enter  numbers 1"); 
+   if (a%2!==0) 
+   {
+    console.log("prime no.");
+   }
+   else 
+   {
+    console.log("not prime")
+   }
+
+    </script>
+</body>
+</html>
