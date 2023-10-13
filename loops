@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Rakesh</h1>
+    <script>
+
+     //.............................. task 1
+for (var a=1;a<=10;a++) 
+   {
+    alert(a);
+    
+    }
+
+var a=1
+while (a<=10)
+{
+    alert(a);
+}
+
+
+var a=1
+do
+{
+    alert(a);
+    a++
+}
+while(a<=10)
+
+   //.....................................task 2
+   
+   for (a=1;a<=10;a+=3)
+   {
+    alert(a);
+   }
+
+   var a=3
+   while(a<=10)
+   {
+   alert(a)
+a+=3;
+}
+
+
+var a=3
+do{
+    alert(a)
+    a+=3;
+}
+while(a<=10);
+
+
+//...........................task 3
+
+FOR(a="rakesh";a(a.length-1);a+=)
+
+{
+    alert(a);
+}
+  var a=rakesh
+  while(a(a.length-1));
+  {
+    alert(a);
+    a+=;
+  }
+  var a=rakesh
+  do{
+    alert(a);
+    a(a.length-1);
+  }
+while(a+=)
+
+       //.............................task 4
+       var a=10
+       for (a=1;a>5 && a<8;a++)
+       {
+        alert(a)
+       }
+
+       var a=10
+       while(a>5 && a<8);{
+        alert(a);
+     a++;
+    }
+
+
+    var a=10
+    do{
+        alert(a);
+        a++;
+    }
+    while(a>5 && a<8);
+
+      //.............................Task5
+      for(a="rakesh";a.length-1;a--;)
+      {
+        alert(a)
+      }
+      var a=rakesh
+      while(a.length-1);
+      {
+        alert(a);
+      }
+      
+
+      
+
+
+    </script>
+    
+</body>
+</html>
