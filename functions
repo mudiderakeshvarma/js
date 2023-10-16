@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+        1
+        function add()
+        {
+            return "hello";
+        }
+   var a = add;
+ alert(a);   
+       2
+   function add()
+        {
+            return "hello";
+        }
+   var a = add();
+   alert(a); 
+       3 Dynamic parameter
+   function add(a,d)
+        {
+            return a+b;
+        }
+   var c= add(10,20);
+   alert(c); 
+         4
+     function add(a,b)
+     {
+            return a,b;
+        }
+   var c =(10,13);
+   alert(c); 
+         //default parameter
+     function add(a,b=0)
+        {
+            return a+b;
+        }
+   var c = add(11) ;
+   alertg(c); 
+         5
+    function add(a,b)
+        {
+            return a+b;
+        }
+   var e = add(600+"hello");
+   alert(e); 
+   
+         6
+  function add(a,b){
+    return a+b;
+  }
+  var e=add(600+"hello",);
+  alert(e);
+
+
+.....................................................task 1....................................
+    function Rakesh(a,b){
+
+    if (a<=5)
+    {
+     console.log("early morning");
+     }
+     else if(a<=12)
+  {
+   console.log("good morning");
+ }
+  else if(a<=16)
+ {
+      console.log("good afternoon");   
+     }
+   else if(a<=20)
+
+   {
+       console.log("good evening");
+    }
+  else if(a<=24)
+   {
+        console.log("good night");
+    }
+    return a,b;
+    }
+   var avinash=Rakesh(b);
+
+....................................task 2.......................
+ function rakesh(a,b,c){
+
+ if ((a>b) && (a>c))
+   {
+    console.log("a is greatter");
+   }
+   else if ((b>c) && (b>a))
+   {
+    console.log("b is greater")
+   }
+   else if ((c>b) && (c>a))
+   {
+    console.log("c is greater")
+   }
+   else if (a=b=c)
+   {
+    console.log("all are equal")
+   }
+    return a,b,c;
+   }
+   var avi=rakesh(3,7,2);
+
+      
+
+............................................task 3.............................
+
+  function rakesh(a,b,c){
+
+ if  (a>b)
+   {
+    console.log("a is gratter")
+   }
+   else if(b>a)
+   {
+    console.log("b is gratter")
+   }
+   else (a=b)
+   {
+    console.log("all are equal")
+   }
+    return a,b,c;
+   }
+   var ee=rakesh(3,7);
+
+...........................................task 4.................................
+
+function rakesh(a,b){
+    if(a==0){
+            console.log("sunday")
+        }
+        else if(a==1)
+        {
+            console.log("monday")
+        }
+        else if (a==2) 
+        {
+            console.logrt("tuseday")
+        }else if (a==3) {
+            console.log("wensday")
+        }
+        else if (a==4) 
+        {
+         console.log("tursday")
+        }
+        else if (a==5) 
+        {
+         console.log("friday")
+        }
+        else if (a==6) 
+        {
+        console.log("saturday")
+        }
+        else
+        {
+         console.log("no week")
+        }
+        return a,b;
+}
+var ee=rakesh(3);
+
+..............................................task 5.....................................
+ 
+function rakesh(a,b){
+    if(a==0){
+            console.log("january")
+        }
+        else if(a==1)
+        {
+            console.log("febray")
+        }
+        else if (a==2) 
+        {
+            console.logrt("march")
+        }else if (a==3) {
+            console.log("april")
+        }
+        else if (a==4) 
+        {
+         console.log("may")
+        }
+        else if (a==5) 
+        {
+         console.log("june")
+        }
+        else if (a==6) 
+        {
+        console.log("july")
+        }
+        else if (a==7) 
+        {
+        console.log("august")
+        }
+        else if (a==8) 
+        {
+        console.log("september")
+        }
+        else if (a==9) 
+        {
+        console.log("octabar")
+        }
+        else if (a==10) 
+        {
+        console.log("november")
+        }
+        else if (a==11) 
+        {
+        console.log("december")
+        }
+        else
+        {
+         console.log("no week")
+        }
+        return a,b;
+}
+ var rr=rakesh(9);
+
+.....................................task 6...........................................
+     function  rakesh(a,b){
+if(c=="+")
+ {
+    console.log(a+b);
+ }
+ if(c== "-")
+ {
+    console.log(a-b);
+ }
+ if(c== "*")
+ {
+    console.log(a*b);
+ }
+ if(c== "%")
+ {
+    console.log(a%b);
+ }
+ if(c== "/")
+ {
+    console.log(a/b);
+ }
+ return a,b,c;
+     }
+var c=rakesh(10,20,"+")
+ 
+........................................task 7..........................
+ function rakesh (a){
+ if (a%2!==0) 
+   {
+    console.log("prime no.");
+   }
+   else 
+   {
+    console.log("not prime")
+   }
+   return a;
+}
+ var rakesh (3);
+
+.......................................task 8...............................
+function rakesh(a){
+for (var a=1;a<=10;a++) 
+   {
+    alert(a);
+    
+    }
+
+var a=1
+while (a<=10)
+{
+    alert(a);
+}
+
+
+var a=1
+do
+{
+    alert(a);
+    a++
+}
+while(a<=10)
+
+return a;
+}
+var rakesh(9);
+
+
+   </script>           
+</body>
+</html>
